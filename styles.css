@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffcccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.app-header {
+    text-align: center;
+}
+
+.app-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.app-description {
+    margin-top: 10px;
+}
+
+.download-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #e60000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #cc0000;
+}
+
+.progress-container {
+    width: 80%;
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    margin: 20px auto;
+    display: none;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 30px;
+    background-color: #e60000;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comments p {
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
